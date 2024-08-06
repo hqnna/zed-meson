@@ -70,6 +70,7 @@ impl MesonExtension {
             }
         }
 
+        zed::make_file_executable(bin_path.clone().as_str())?;
         self.cached_path = Some(bin_path.clone());
         Ok(bin_path)
     }
