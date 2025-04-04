@@ -1,8 +1,9 @@
 {
   inputs = {
     fenix.url = "github:nix-community/fenix";
-    fenix.inputs.nixpkgs.follows = "nixpkgs";
     utils.url = "github:numtide/flake-utils";
+    nixpkgs.url = "github:nixos/nixpkgs/release-24.11";
+    fenix.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = { self, nixpkgs, utils, fenix }:
