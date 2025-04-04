@@ -3,6 +3,9 @@ Meson
 ![activity](https://img.shields.io/github/last-commit/hqnna/zed-meson)
 ================================================================================
 
+> [!IMPORTANT]
+> This extension is in **maintenance** mode, it will only be updated to fix breakages.
+
 An extension for the [zed](https://zed.dev) code editor, adding support for the
 [meson](https://mesonbuild.com) build system.
 
