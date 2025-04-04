@@ -1,0 +1,15 @@
+id = "meson"
+name = "Meson"
+schema_version = 1
+description = "Meson language support for the Zed editor"
+repository = "https://github.com/hqnna/zed-meson"
+authors = ["hanna rose <hanna@hanna.lol>"]
+version = "0.1.0"
+
+[grammars.meson]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-meson"
+commit = "bd17c824196ce70800f64ad39cfddd1b17acc13f"
+
+[language_servers.meson]
+name = "LanguageServer.meson"
+languages = ["Meson"]
