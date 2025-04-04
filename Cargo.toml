@@ -1,0 +1,13 @@
+[package]
+name = "zed_meson"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "0BSD"
+
+[lib]
+path = "src/meson.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.0.6"
