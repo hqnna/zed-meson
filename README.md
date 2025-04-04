@@ -1,3 +1,7 @@
-# Zed Meson Support
+Meson
+![license](https://img.shields.io/github/license/hqnna/zed-meson)
+![activity](https://img.shields.io/github/last-commit/hqnna/zed-meson)
+================================================================================
 
-This is a [zed](https://zed.dev) editor extension adding support for [meson](https://mesonbuild.com).
+An extension for the [zed](https://zed.dev) code editor, adding support for the
+[meson](https://mesonbuild.com) build system.
