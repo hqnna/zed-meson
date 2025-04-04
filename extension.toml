@@ -4,7 +4,7 @@ schema_version = 1
 description = "Meson language support for the Zed editor"
 repository = "https://github.com/hqnna/zed-meson"
 authors = ["hanna rose <hanna@hanna.lol>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [grammars.meson]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-meson"
